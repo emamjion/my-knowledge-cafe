@@ -1,7 +1,8 @@
 import React from 'react';
 import './DisplayBlogs.css';
 
-const DisplayBlogs = () => {
+const DisplayBlogs = (props) => {
+    console.log(props.blogs);
     return (
         <div>
             <h3>Blog here</h3>
