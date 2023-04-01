@@ -1,7 +1,7 @@
 import React from 'react';
 import './Blog.css';
 
-const Blog = () => {
+const Blog = (props) => {
     return (
         <div className='blog-container'>
             <div className='over-line'></div>
@@ -23,8 +23,19 @@ const Blog = () => {
                             <i>Icon</i>
                         </div>
                     </div>
+                    <div className='title-section'>
+                        <h1 className='title-name'>How to get your first job as a self-<br/>taught programmer</h1>
+                        <a className='mark-as-read' href="/">Mark as read</a>
+                    </div>
                 </div>
-                <div className='bookmarked-side'>Right</div>
+                <div className='bookmarked-side'>
+                    <div className='spent-time'>
+                        <h2>Spent time on read: </h2>
+                    </div>
+                    <div className='bookmarked'>
+                        <h2>Bookmarked Blogs: </h2>
+                    </div>
+                </div>
             </div>
         </div>
     );

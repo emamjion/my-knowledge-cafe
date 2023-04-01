@@ -12,9 +12,7 @@
     grid-template-columns: 4fr 2fr;
     gap: 25px;
 }
-.bookmarked-side{
-    background: purple;
-}
+
 .cover-img{
     width: 845px; 
 }
@@ -49,4 +47,32 @@
 .time-read{
     display: inline;
     margin-right: 10px;
+}
+.title-section{
+    margin-top: 15px;
+}
+.title-section .title-name{
+    font-size: 40px;
+    font-weight: 700;
+}
+.title-section .mark-as-read{
+    font-size: 20px;
+    color: #6047EC;
+    font-weight: 600;
+}
+.spent-time h2{
+    text-align: center;
+    border: 1px solid #6047EC;
+    background: rgba(96, 71, 236, 0.1);
+    color: #6047EC;
+    border-radius: 8px;
+    padding: 18px 0;
+    font-size: 24px;
+}
+.bookmarked{
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+}
+.bookmarked h2{
+    padding: 30px;
 }
