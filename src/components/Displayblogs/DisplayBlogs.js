@@ -3,7 +3,7 @@ import './DisplayBlogs.css';
 
 const DisplayBlogs = (props) => {
     // console.log(props.blogs);
-    const {coverImg,imgUrl,authorName,date,title} = props.blogs;
+    const {coverImg,imgUrl,authorName,date,title,readTime} = props.blogs;
     return (
         <div>
             <div className='over-line'></div>
@@ -17,7 +17,7 @@ const DisplayBlogs = (props) => {
                     </div>
                 </div>
                 <div className='read-time'>
-                    <p><span>05</span> min read</p>
+                    <p><span>{readTime}</span> min read</p>
                     <span>icon</span>
                 </div>
             </div>

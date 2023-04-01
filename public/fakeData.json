@@ -5,7 +5,8 @@
         "coverImg" : "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=1380&t=st=1680321463~exp=1680322063~hmac=01b2030cec66134ea2fddb936c31d7f963c6f51e59225ab0782aa2031bbb8bc9",
         "title" : "How to do efficient your code in vs code",
         "authorName" : "HM Nayem",
-        "date" : "Mar 14 (3 days ago)"
+        "date" : "Mar 14 (3 days ago)",
+        "readTime" : 5
     },
     {
         "id" : "02",
@@ -13,7 +14,8 @@
         "coverImg" : "https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?w=1380&t=st=1680321724~exp=1680322324~hmac=8cdf5e235d7c7eecce908481a778558ec52406bb12ad01de5adf3a62c2c3e74c",
         "title" : "How to learn programming language",
         "authorName" : "Anisul Islam",
-        "date" : "Jan 05 (6 days ago)"
+        "date" : "Jan 05 (6 days ago)",
+        "readTime" : 10
     },
     {
         "id" : "03",
@@ -21,7 +23,8 @@
         "coverImg" : "https://img.freepik.com/free-vector/app-development-concept-with-programming-languages_23-2148688949.jpg?w=826&t=st=1680321962~exp=1680322562~hmac=4618139293654307df1c8ad160023e68c36071ac03b9fb11e031841586eaf539",
         "title" : "How does work code execution time",
         "authorName" : "Sumit Saha",
-        "date" : "Mar 01 (8 days ago)"
+        "date" : "Mar 01 (8 days ago)",
+        "readTime" : 12
     },
     {
         "id" : "04",
@@ -29,6 +32,7 @@
         "coverImg" : "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=1380&t=st=1680321463~exp=1680322063~hmac=01b2030cec66134ea2fddb936c31d7f963c6f51e59225ab0782aa2031bbb8bc9",
         "title" : "How to do project in React in Comfortly",
         "authorName" : "Hablu Programmer",
-        "date" : "Feb 07 (13 days ago)"
+        "date" : "Feb 07 (13 days ago)",
+        "readTime" : 7
     }
 ]

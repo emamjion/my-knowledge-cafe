@@ -8,7 +8,7 @@ const LoadBlogs = () => {
         fetch('fakeData.json')
         .then(response => response.json())
         .then(data => setBlogs(data))
-    },[])
+    },[]);
     return (
         <div className='main-container'>
             <div className='blogs-parent-container'>
