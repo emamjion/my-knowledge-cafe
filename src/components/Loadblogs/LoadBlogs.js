@@ -18,7 +18,10 @@ const LoadBlogs = () => {
                     }
                 </div>
                 <div className='bookmarked-container'>
-                    <h2>Bookmarked</h2>
+                    <div className='spent-time'>Spent time on read: </div>
+                    <div className='bookmarked-blog'>
+                        <h2 className='bookmarked-heading'>Bookmarked Blogs: </h2>
+                    </div>
                 </div>
             </div>
         </div>

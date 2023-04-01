@@ -1,0 +1,28 @@
+.footer-section{
+    margin-top: 30px;
+    padding: 10px 320px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.footer-section div{
+    border: 1px solid #6047EC;
+    padding: 30px;
+    border-radius: 8px;
+    background: rgba(96, 71, 236, 0.1);
+}
+.footer-section div h2{
+    text-align: center;
+}
+.footer-section div p{
+    font-size: 17px;
+    line-height: 1.5;
+    color: #111;
+}
+
+@media only screen and (max-width: 600px){
+    .footer-section{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
