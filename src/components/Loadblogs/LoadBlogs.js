@@ -11,7 +11,6 @@ const LoadBlogs = () => {
     },[])
     return (
         <div className='main-container'>
-            <div className='over-line'></div>
             <div className='blogs-parent-container'>
                 <div className='blogs-container'>
                     {
