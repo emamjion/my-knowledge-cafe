@@ -20,12 +20,12 @@ const DisplayBlogs = (props) => {
                 </div>
                 <div className='read-time'>
                     <p><span>{readTime}</span> min read</p>
-                    <span onClick={() => handleAddToCart(props.blogs)}><FontAwesomeIcon icon={faBookmark} /></span>
+                    <span><FontAwesomeIcon icon={faBookmark} /></span>
                 </div>
             </div>
             <div className='title-div'>
                 <div className='title'>{title}</div>
-                <a href="/">Mark as read</a>
+                <span className='mark-as-read' onClick={() => handleAddToCart(props.blogs)}>Mark as read</span>
             </div>
         </div>
     );

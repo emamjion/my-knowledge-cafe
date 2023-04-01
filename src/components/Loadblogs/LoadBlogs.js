@@ -1,6 +1,7 @@
 import React, {useEffect, useState } from 'react';
 import './LoadBlogs.css'
 import DisplayBlogs from '../Displayblogs/DisplayBlogs';
+import Cart from '../Cart/Cart';
 
 const LoadBlogs = () => {
     const [blogs, setBlogs] = useState([]);
@@ -23,10 +24,7 @@ const LoadBlogs = () => {
                     }
                 </div>
                 <div className='bookmarked-container'>
-                    <div className='spent-time'>Spent time on read: </div>
-                    <div className='bookmarked-blog'>
-                        <h2 className='bookmarked-heading'>Bookmarked Blogs: {cart.length}</h2>
-                    </div>
+                    <Cart cart={cart} blogs={blogs}></Cart>
                 </div>
             </div>
         </div>

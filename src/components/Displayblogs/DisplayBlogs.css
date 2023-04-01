@@ -47,11 +47,13 @@
     margin-top: 15px;
     font-weight: 600;
 }
-.title-div a{
-    margin-top: 21px;
-    margin-bottom: 35px;
-    display: block;
+.mark-as-read{
     color: #6047EC;
     font-weight: 600;
     font-size: 20px;
+    text-decoration: underline;
+    margin-top: 21px;
+    margin-bottom: 35px;
+    display: block;
+    cursor: pointer;
 }
